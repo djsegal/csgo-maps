@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Saspatoon/Dirt/Cracked/CrackedDirtBlue"
+	"$bumpmap" "Saspatoon/Dirt/Cracked/CrackedDirt_normal"
+	"$surfaceprop" "dirt"
+	"$envmap" "env_cubemap"
+}
+// Credits:
+// Made by Saspatoon
+// You may modify anything in this file except for the credits
+// Enjoy!

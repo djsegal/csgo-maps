@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Saspatoon/Concrete/Smooth/SmoothConcreteBlue"
+	"$bumpmap" "Saspatoon/Concrete/Smooth/SmoothConcrete_normal"
+	"$surfaceprop" "Concrete"
+	"$envmap" "env_cubemap"
+}
+// Credits:
+// Made by Saspatoon
+// You may modify anything in this file except for the credits
+// Enjoy!
