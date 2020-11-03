@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "200"
+	"mapversion" "201"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "200"
+	"mapversion" "201"
 	"classname" "worldspawn"
 	"coldworld" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -20226,6 +20226,84 @@ world
 }
 entity
 {
+	"id" "24236"
+	"classname" "light"
+	"_constant_attn" "1"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 255 255 25"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"targetname" "white_light"
+	"origin" "640 -640 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "24246"
+	"classname" "light"
+	"_constant_attn" "1"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 255 255 25"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"targetname" "white_light"
+	"origin" "0 1408 224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "24335"
+	"classname" "light"
+	"_constant_attn" "1"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 255 255 25"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"targetname" "white_light"
+	"origin" "0 -1408 224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
 	"id" "23464"
 	"classname" "env_fade"
 	"duration" "0"
@@ -20679,7 +20757,7 @@ entity
 	"targetname" "the_laser"
 	"texture" "sprites/laserbeam.spr"
 	"TextureScroll" "35"
-	"width" "16"
+	"width" "64"
 	"origin" "0 0 -408"
 	editor
 	{
@@ -21374,7 +21452,7 @@ entity
 		"id" "21982"
 		side
 		{
-			"id" "22676"
+			"id" "22892"
 			"plane" "(-512 1408 256) (512 1408 256) (512 1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21385,7 +21463,7 @@ entity
 		}
 		side
 		{
-			"id" "22675"
+			"id" "22891"
 			"plane" "(-512 1280 32) (512 1280 32) (512 1408 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21396,7 +21474,7 @@ entity
 		}
 		side
 		{
-			"id" "22674"
+			"id" "22890"
 			"plane" "(-512 1408 256) (-512 1280 256) (-512 1280 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21407,7 +21485,7 @@ entity
 		}
 		side
 		{
-			"id" "22673"
+			"id" "22889"
 			"plane" "(512 1408 32) (512 1280 32) (512 1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21418,7 +21496,7 @@ entity
 		}
 		side
 		{
-			"id" "22672"
+			"id" "22888"
 			"plane" "(512 1408 256) (-512 1408 256) (-512 1408 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21429,7 +21507,7 @@ entity
 		}
 		side
 		{
-			"id" "22671"
+			"id" "22887"
 			"plane" "(512 1280 32) (-512 1280 32) (-512 1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21450,7 +21528,7 @@ entity
 		"id" "21981"
 		side
 		{
-			"id" "22682"
+			"id" "22898"
 			"plane" "(-512 -1280 256) (512 -1280 256) (512 -1408 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21461,7 +21539,7 @@ entity
 		}
 		side
 		{
-			"id" "22681"
+			"id" "22897"
 			"plane" "(-512 -1408 32) (512 -1408 32) (512 -1280 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21472,7 +21550,7 @@ entity
 		}
 		side
 		{
-			"id" "22680"
+			"id" "22896"
 			"plane" "(-512 -1280 32) (-512 -1280 256) (-512 -1408 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21483,7 +21561,7 @@ entity
 		}
 		side
 		{
-			"id" "22679"
+			"id" "22895"
 			"plane" "(512 -1408 32) (512 -1408 256) (512 -1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21494,7 +21572,7 @@ entity
 		}
 		side
 		{
-			"id" "22678"
+			"id" "22894"
 			"plane" "(512 -1280 32) (512 -1280 256) (-512 -1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21505,7 +21583,7 @@ entity
 		}
 		side
 		{
-			"id" "22677"
+			"id" "22893"
 			"plane" "(-512 -1408 32) (-512 -1408 256) (512 -1408 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21547,7 +21625,7 @@ entity
 		"id" "22163"
 		side
 		{
-			"id" "22736"
+			"id" "22904"
 			"plane" "(-512 1408 256) (512 1408 256) (512 1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21558,7 +21636,7 @@ entity
 		}
 		side
 		{
-			"id" "22735"
+			"id" "22903"
 			"plane" "(-512 1280 32) (512 1280 32) (512 1408 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21569,7 +21647,7 @@ entity
 		}
 		side
 		{
-			"id" "22734"
+			"id" "22902"
 			"plane" "(-512 1408 256) (-512 1280 256) (-512 1280 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21580,7 +21658,7 @@ entity
 		}
 		side
 		{
-			"id" "22733"
+			"id" "22901"
 			"plane" "(512 1408 32) (512 1280 32) (512 1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21591,7 +21669,7 @@ entity
 		}
 		side
 		{
-			"id" "22732"
+			"id" "22900"
 			"plane" "(512 1408 256) (-512 1408 256) (-512 1408 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21602,7 +21680,7 @@ entity
 		}
 		side
 		{
-			"id" "22731"
+			"id" "22899"
 			"plane" "(512 1280 32) (-512 1280 32) (-512 1280 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21623,7 +21701,7 @@ entity
 		"id" "22164"
 		side
 		{
-			"id" "22742"
+			"id" "22910"
 			"plane" "(-512 -1280 256) (512 -1280 256) (512 -1408 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21634,7 +21712,7 @@ entity
 		}
 		side
 		{
-			"id" "22741"
+			"id" "22909"
 			"plane" "(-512 -1408 32) (512 -1408 32) (512 -1280 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21645,7 +21723,7 @@ entity
 		}
 		side
 		{
-			"id" "22740"
+			"id" "22908"
 			"plane" "(-512 -1280 256) (-512 -1408 256) (-512 -1408 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21656,7 +21734,7 @@ entity
 		}
 		side
 		{
-			"id" "22739"
+			"id" "22907"
 			"plane" "(512 -1280 32) (512 -1408 32) (512 -1408 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21667,7 +21745,7 @@ entity
 		}
 		side
 		{
-			"id" "22738"
+			"id" "22906"
 			"plane" "(512 -1280 256) (-512 -1280 256) (-512 -1280 32)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -21678,7 +21756,7 @@ entity
 		}
 		side
 		{
-			"id" "22737"
+			"id" "22905"
 			"plane" "(512 -1408 32) (-512 -1408 32) (-512 -1408 256)"
 			"material" "VGUI/SCREENS/TRANSPARENT"
 			"uaxis" "[1 0 0 0] 0.25"

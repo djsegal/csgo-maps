@@ -14540,3 +14540,208 @@ Total triangle count: 4479
 Writing \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
 MSG_FILEWRITE - Filesystem was asked to write to '\\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp', but we don't own that location. Allowing...
 28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading \\Mac\Home\Library\Application Support\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\kcds_tombraider.vmf
+Map revision 201
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing \\Mac\Home\Library\Application Support\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\kcds_tombraider.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (82461 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 239 texinfos to 173
+Reduced 14 texdatas to 14 (500 bytes to 500)
+Writing \\Mac\Home\Library\Application Support\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\kcds_tombraider.bsp
+MSG_FILEWRITE - Filesystem was asked to write to '\\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
+reading \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.prt
+ 501 portalclusters
+1775 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 301 visible clusters (0.00%)
+Total clusters visible: 119159
+Average clusters visible: 237
+Building PAS...
+Average clusters audible: 471
+visdatasize:63902  compressed from 64128
+writing \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
+MSG_FILEWRITE - Filesystem was asked to write to '\\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp', but we don't own that location. Allowing...
+1 minute, 2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
+1731 faces
+573764 square feet [82622144.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1731 patches before subdivision
+63675 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11318549, max 776
+transfer lists:  86.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0409 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  27/1024         1296/49152    ( 2.6%) 
+brushes                294/8192         3528/98304    ( 3.6%) 
+brushsides            2577/81920       20616/655360   ( 3.1%) 
+planes                2180/65536       43600/1310720  ( 3.3%) 
+vertexes              2417/65536       29004/786432   ( 3.7%) 
+nodes                 1163/65536       37216/2097152  ( 1.8%) 
+texinfos               173/12288       12456/884736   ( 1.4%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1731/65536       96936/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              840/65536       47040/3670016  ( 1.3%) 
+facebrushes            195/0             390/0        ( 0.0%) 
+facebrushlists        1731/0            6924/0        ( 0.0%) 
+leaves                1191/65536       38112/2097152  ( 1.8%) 
+leaffaces             2380/65536        4760/131072   ( 3.6%) 
+leafbrushes            557/65536        1114/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11384/512000      45536/2048000  ( 2.2%) 
+edges                 6229/256000      24916/1024000  ( 2.4%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            104/32768        1040/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1320/65536        2640/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6191136/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       63902/16777216 ( 0.4%) 
+entdata               [variable]       26827/393216   ( 6.8%) 
+LDR ambient table     1191/65536        4764/262144   ( 1.8%) 
+HDR ambient table     1191/65536        4764/262144   ( 1.8%) 
+LDR leaf ambient       782/65536       21896/1835008  ( 1.2%) 
+HDR leaf ambient      1191/65536       33348/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74458/0        ( 0.0%) 
+physics               [variable]       82461/4194304  ( 2.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4479
+Writing \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
+MSG_FILEWRITE - Filesystem was asked to write to '\\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp', but we don't own that location. Allowing...
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
+1731 faces
+573764 square feet [82622144.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1731 patches before subdivision
+63675 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11318549, max 776
+transfer lists:  86.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0219 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  27/1024         1296/49152    ( 2.6%) 
+brushes                294/8192         3528/98304    ( 3.6%) 
+brushsides            2577/81920       20616/655360   ( 3.1%) 
+planes                2180/65536       43600/1310720  ( 3.3%) 
+vertexes              2417/65536       29004/786432   ( 3.7%) 
+nodes                 1163/65536       37216/2097152  ( 1.8%) 
+texinfos               173/12288       12456/884736   ( 1.4%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1731/65536       96936/3670016  ( 2.6%) 
+hdr faces             1731/65536       96936/3670016  ( 2.6%) 
+origfaces              840/65536       47040/3670016  ( 1.3%) 
+facebrushes            195/0             390/0        ( 0.0%) 
+facebrushlists        1731/0            6924/0        ( 0.0%) 
+leaves                1191/65536       38112/2097152  ( 1.8%) 
+leaffaces             2380/65536        4760/131072   ( 3.6%) 
+leafbrushes            557/65536        1114/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11384/512000      45536/2048000  ( 2.2%) 
+edges                 6229/256000      24916/1024000  ( 2.4%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights         15/8192         1500/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            104/32768        1040/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1320/65536        2640/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6191136/0        ( 0.0%) 
+HDR lightdata         [variable]     6191136/0        ( 0.0%) 
+visdata               [variable]       63902/16777216 ( 0.4%) 
+entdata               [variable]       26827/393216   ( 6.8%) 
+LDR ambient table     1191/65536        4764/262144   ( 1.8%) 
+HDR ambient table     1191/65536        4764/262144   ( 1.8%) 
+LDR leaf ambient       782/65536       21896/1835008  ( 1.2%) 
+HDR leaf ambient       782/65536       21896/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74458/0        ( 0.0%) 
+physics               [variable]       82461/4194304  ( 2.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4479
+Writing \\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp
+MSG_FILEWRITE - Filesystem was asked to write to '\\mac\home\library\application support\steam\steamapps\common\counter-strike global offensive\csgo\maps\kcds_tombraider.bsp', but we don't own that location. Allowing...
+18 seconds elapsed
